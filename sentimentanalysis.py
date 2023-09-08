@@ -8,6 +8,7 @@ Original file is located at
 """
 
 
+pip install scikit-learn
 
 import streamlit as st
 import pickle
