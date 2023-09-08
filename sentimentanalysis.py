@@ -8,7 +8,7 @@ Original file is located at
 """
 
 
-pip install scikit-learn
+
 
 import streamlit as st
 import pickle
@@ -79,3 +79,15 @@ if st.button("Predict"):
             st.subheader("The sentiment of the given text is: Positive")
     else:
         st.subheader("Please enter a text for prediction.")
+print(f"Streamlit version: {st.__version__}")
+pillow_version = Image.__version__
+print(f"Pillow version: {pillow_version}")
+print(f"Python re (regular expressions) version: {re.__version__}")
+nltk_version = nltk.__version__
+print(f"NLTK version: {nltk_version}")
+spacy_version = spacy.__version__
+print(f"spaCy version: {spacy_version}")
+sklearn_version = sklearn.__version__
+print(f"scikit-learn version: {sklearn_version}")
+joblib_version = joblib.__version__
+print(f"joblib version: {joblib_version}")
