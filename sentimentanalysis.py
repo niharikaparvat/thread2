@@ -79,7 +79,7 @@ if st.button("Predict"):
             st.subheader("The sentiment of the given text is: Positive")
     else:
         st.subheader("Please enter a text for prediction.")
-pip install streamlit
+
 import pickle
 import streamlit as st
 import re
