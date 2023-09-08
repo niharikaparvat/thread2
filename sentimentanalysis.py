@@ -79,6 +79,21 @@ if st.button("Predict"):
             st.subheader("The sentiment of the given text is: Positive")
     else:
         st.subheader("Please enter a text for prediction.")
+!pip install streamlit
+import pickle
+import streamlit as st
+import re
+import string
+import nltk
+import spacy
+from sklearn.feature_extraction.text import TfidfVectorizer
+tf1 = TfidfVectorizer()
+import streamlit as st
+import pickle
+from sklearn.feature_extraction.text import TfidfVectorizer
+from PIL import Image
+import sklearn
+import joblib
 print(f"Streamlit version: {st.__version__}")
 pillow_version = Image.__version__
 print(f"Pillow version: {pillow_version}")
